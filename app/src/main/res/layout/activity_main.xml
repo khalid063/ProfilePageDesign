@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="165dp"
         android:weightSum="10"
-        android:background="#3F51B5">
+        android:background="@color/read">
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -142,11 +142,11 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="5.5"
+            android:layout_weight="5"
             android:orientation="vertical"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
-            android:background="#777E6E">
+            android:background="@color/read">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -166,7 +166,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:background="#C41A1A">
+                android:layout_marginTop="5dp"
+                android:background="@color/read">
                 <LinearLayout
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
@@ -215,23 +216,74 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:text="94% Positive Seller Ratings"
                 android:textColor="@color/white"
                 android:textSize="14sp"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
                 <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"/>
+                    android:layout_width="15dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/ic_location"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="23 Rd 18, Khulna 9000, Bangladesh."
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_conversation"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="Call"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:background="@drawable/call_text_bg"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="#ADC491">
-
+            android:layout_weight="2.5"
+            android:background="@color/read">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="+Following"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:background="@drawable/call_text_bg" />
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
