@@ -10,4 +10,6 @@
 
     <color name="read">#fe0000</color>
     <color name="transparent">#00000000</color>
+    <color name="product_page_bg_color">#e3e3e3</color>
+
 </resources>
